@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{971EC2B5-BFE7-4726-BB34-ED5F2C809C3A}">
+	<children>
+		<child name="TalentCapgemini" key="{71234E6B-1C87-47FA-85AC-91733D9EE13F}" path="TalentCapgemini\TalentCapgemini.mds" />
+		<child name="M&amp;SApp" key="{958120AC-E5D2-40A6-9927-E579443D1C22}" path="M&amp;SApp\M&amp;SApp.mds" />
+	</children>
+	<testItems key="{CCAA7DA5-3BF2-456D-A9E1-D6F33B5634C7}">
+		<children>
+			<testItem key="{71234E6B-1C87-47FA-85AC-91733D9EE13F}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{958120AC-E5D2-40A6-9927-E579443D1C22}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E5FAB983-1261-4CB9-9E12-87C6F207659C}" />
+	<analysis key="{ABC0A9DA-12EF-4384-9275-39D3A3F40F11}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

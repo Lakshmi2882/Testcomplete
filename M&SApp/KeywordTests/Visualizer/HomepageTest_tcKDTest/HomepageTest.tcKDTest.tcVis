@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{CE1AD842-6F30-4B3A-95C7-D5FEF86CE6BA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44904.5698726852" objectName="Aliases.browser.BrowserWindow" objectLeft="-11" objectTop="-11" objectRight="1931" objectBottom="1019" clickPointX="1550" clickPointY="23" imageFileName="tcvi103671343188840.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44904.5700231481" objectName="Aliases.browser.pageMSGoogleSearch.textnodeWelcomeToMarksSpencer" objectLeft="161" objectTop="458" objectRight="557" objectBottom="505" clickPointX="340" clickPointY="492" imageFileName="tcvi1036840781888412.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

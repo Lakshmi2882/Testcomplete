@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{78930414-493C-4033-B42A-97C84526AEDA}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{B82DE9DC-B629-4728-BEAC-17143B55B16A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{A7AF628E-8FB7-4F45-B37B-D96F7C37EC61}">
+								<Image FileName="-554560871" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{6E7F4F17-B5B3-43DD-A988-350030ABBC9A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMSGoogleSearch" Key="{6B474766-D6C4-424C-BAA3-838E0A69B347}">
+								<Image FileName="1964314980" Left="0" Top="154" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeWelcomeToMarksSpencer" Key="{4709F97C-8FD7-4544-B54F-8E659EA809BB}">
+										<Image FileName="1606908964" Left="161" Top="458" Right="557" Bottom="505" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Welcome to Marks &amp; Spencer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;www.marksandspencer.com&apos;)]/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwMarksandspencerCom" Key="{4A88B80C-105C-4265-8E73-605840DC5D68}">
+								<Image FileName="1964314980" Left="0" Top="154" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.marksandspencer.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerCommonHdrMain" Key="{466B0C0F-DFF3-4A17-BB7D-A88376E14160}">
+										<Image FileName="-1708183517" Left="0" Top="154" Right="1895" Bottom="405" />
+										<Selectors>
+											<Selector>
+												<Value Value="#common-hdr-main" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &apos;&lt;i class=&quot;inpage-msg__icon icon--information&quot;&gt;&lt;/i&gt;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navShopByCategory" Key="{B63A889F-F3B1-42BD-A7BA-4A320A00DB94}">
+										<Image FileName="-1708183517" Left="0" Top="336" Right="1895" Bottom="405" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Christmas&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navigation-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChristmas" Key="{5D65C968-4342-44E3-ADA9-F5DB89719F04}">
+										<Image FileName="-1708183517" Left="48" Top="336" Right="1848" Bottom="404" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Christmas&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;nav-primary__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkChristmas" Key="{04F78A7F-D978-442D-951C-DF0639ACB438}">
+										<Image FileName="-1708183517" Left="48" Top="349" Right="187" Bottom="403" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Christmas&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-primary__menu-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeViewAll" Key="{E55DFF8E-E4D5-4C85-8F8D-0CA8A34FF903}">
+										<Image FileName="-456182037" Left="18" Top="475" Right="310" Bottom="631" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;View All&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div[@id=&apos;SC_Level_1_1&apos;]//ul[contains(@class, &apos;nav-submenu__link-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navContainer&apos;]//div[@id=&apos;SC_Level_1_1&apos;]/div/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/nav/div[@id=&apos;navContainer&apos;]//div[@id=&apos;SC_Level_1_1&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClothing" Key="{D813D083-E745-4874-8EE1-52FB20B6C473}">
+										<Image FileName="-456182037" Left="36" Top="519" Right="287" Bottom="542" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Clothing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SC_Level_1_1&apos;]//ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navContainer&apos;]/div[2]/div[@id=&apos;SC_Level_1_1&apos;]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFootwear" Key="{84E875A3-04D3-4D18-8853-AA4269AE39BE}">
+										<Image FileName="-1738180911" Left="36" Top="556" Right="287" Bottom="579" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Footwear&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SC_Level_1_1&apos;]//ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navContainer&apos;]/div[2]/div[@id=&apos;SC_Level_1_1&apos;]//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeViewAll2" Key="{EA9DBEFB-A501-4C75-BD4B-22F95D2DF79A}">
+										<Image FileName="-1322464737" Left="18" Top="690" Right="310" Bottom="1371" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Jumpers &amp; Cardigans&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewAll" Key="{3E761EB9-1A45-486B-992C-954542D104C3}">
+										<Image FileName="-1322464737" Left="36" Top="696" Right="287" Bottom="719" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;SC_Level_1_1&apos;]//ul[2]/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navContainer&apos;]/div[2]/div[@id=&apos;SC_Level_1_1&apos;]//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewInWomenSShoesMS" Key="{F522E56F-9A49-4432-A521-85DE9A7FDDF2}">
+								<Image FileName="-1905088561" Left="0" Top="154" Right="1920" Bottom="1007" />
+								<TypeInfo Item0="{EB16507B-6267-44AC-9256-91BAE5AE05BD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.marksandspencer.com/l/women/all-new-in/footwear" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionFeskFind" Key="{7706394B-7B5D-4DAD-AB66-838374C0306B}">
+										<Image FileName="1854433080" Left="24" Top="-304" Right="1871" Bottom="4568" />
+										<Selectors>
+											<Selector>
+												<Value Value="#fesk-find" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Home&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNew" Key="{9C0D621B-C3C4-4E4E-A36C-F0E1E719CA29}">
+										<Image FileName="1854433080" Left="18" Top="334" Right="1877" Bottom="4569" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Leather Stiletto Heel Pointed Ankle Boots&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;grid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{38DC3F1A-60C9-496F-9A96-8293C790EBFE}">
+										<Image FileName="1854433080" Left="490" Top="334" Right="2740" Bottom="919" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[2]//a//ul[contains(@class, &apos;glide__slides&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;fesk-find&apos;]//li[2]//a//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//a//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageLeatherStilettoHeelPointed" Key="{E08AB86C-24B5-4C0D-BBB5-BA799DFC9228}">
+										<Image FileName="1854433080" Left="490" Top="334" Right="940" Bottom="919" />
+										<TypeInfo Item0="{F10AD79E-39D2-427A-BE28-8D0C6E1C6693}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[2]//a//ul/li//img[contains(@src, &apos;mands&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//a//ul/li//img[contains(@class, &apos;product__image--view&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;leather-stiletto-heel-pointed-ankle-boots/p&apos;)]//ul/li//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//a//ul/li//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{B82DE9DC-B629-4728-BEAC-17143B55B16A}">
+			<Child Name="BrowserWindow" Owner="{A7AF628E-8FB7-4F45-B37B-D96F7C37EC61}" />
+			<Child Name="pageMSGoogleSearch" Owner="{6B474766-D6C4-424C-BAA3-838E0A69B347}">
+				<Child Name="textnodeWelcomeToMarksSpencer" Owner="{4709F97C-8FD7-4544-B54F-8E659EA809BB}" />
+			</Child>
+			<Child Name="pageWwwMarksandspencerCom" Owner="{4A88B80C-105C-4265-8E73-605840DC5D68}">
+				<Child Name="headerCommonHdrMain" Owner="{466B0C0F-DFF3-4A17-BB7D-A88376E14160}">
+					<Child Name="navShopByCategory" Owner="{B63A889F-F3B1-42BD-A7BA-4A320A00DB94}">
+						<Child Name="textnodeChristmas" Owner="{5D65C968-4342-44E3-ADA9-F5DB89719F04}">
+							<Child Name="linkChristmas" Owner="{04F78A7F-D978-442D-951C-DF0639ACB438}" />
+						</Child>
+						<Child Name="textnodeViewAll" Owner="{E55DFF8E-E4D5-4C85-8F8D-0CA8A34FF903}">
+							<Child Name="linkClothing" Owner="{D813D083-E745-4874-8EE1-52FB20B6C473}" />
+							<Child Name="linkFootwear" Owner="{84E875A3-04D3-4D18-8853-AA4269AE39BE}" />
+						</Child>
+						<Child Name="textnodeViewAll2" Owner="{EA9DBEFB-A501-4C75-BD4B-22F95D2DF79A}">
+							<Child Name="linkViewAll" Owner="{3E761EB9-1A45-486B-992C-954542D104C3}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageNewInWomenSShoesMS" Owner="{F522E56F-9A49-4432-A521-85DE9A7FDDF2}">
+				<Child Name="sectionFeskFind" Owner="{7706394B-7B5D-4DAD-AB66-838374C0306B}">
+					<Child Name="textnodeNew" Owner="{9C0D621B-C3C4-4E4E-A36C-F0E1E719CA29}">
+						<Child Name="textnode" Owner="{38DC3F1A-60C9-496F-9A96-8293C790EBFE}">
+							<Child Name="imageLeatherStilettoHeelPointed" Owner="{E08AB86C-24B5-4C0D-BBB5-BA799DFC9228}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
